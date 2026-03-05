@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.9.6 on darwin)" generated="2026-03-05T17:26:52.264305" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 001" source="/Users/pornrat/Documents/GitHub/Open_Camp_Doppio_Group_2/testcases/TC_001.robot">
+<test id="s1-t1" name="TC_IKEA_004 Verify user can add product successfully" line="7">
+<kw name="Open Prod main page" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-05T17:26:52.873745" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/pornrat/Documents/GitHub/Open_Camp_Doppio_Group_2/testcases/browser/traces/temp/e7fb5bf1-ed82-48bd-811e-49ccb629d2ef"}</msg>
+<msg time="2026-03-05T17:26:52.917863" level="INFO">Starting Browser process /Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/index.js using at 127.0.0.1:54438</msg>
+<msg time="2026-03-05T17:26:55.827701" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/pornrat/Documents/GitHub/Open_Camp_Doppio_Group_2/testcases/browser/traces/temp/e7fb5bf1-ed82-48bd-811e-49ccb629d2ef"}</msg>
+<arg>chromium</arg>
+<arg>${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-05T17:26:52.868755" elapsed="2.959432"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-05T17:26:55.840965" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-03-05T17:26:55.884350" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-05T17:26:55.884538" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-05T17:26:55.829389" elapsed="0.055409"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-05T17:26:59.620957" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-05T17:26:55.887391" elapsed="3.734036"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:26:52.867685" elapsed="6.754273"/>
+</kw>
+<kw name="Click cookie_policy button" owner="cookie_policy_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:26:59.632849" level="INFO">Clicks the element 'id=onetrust-accept-btn-handler'.</msg>
+<arg>selector=${btn_cookie_policy}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:26:59.630410" elapsed="0.889193"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:26:59.625204" elapsed="0.895351"/>
+</kw>
+<kw name="Test search Prod main page" owner="Prod_main_page">
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-03-05T17:27:00.531706" level="INFO">Fills the text 'โคมไฟ' in the given field.</msg>
+<arg>${Prod_main_locator_searhbox_txt}</arg>
+<arg>${prodname}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:00.530000" elapsed="1.375332"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:01.907495" level="INFO">Clicks the element 'css=button[type="submit"]'.</msg>
+<arg>${Prod_main_locator_Search_btn}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:01.906218" elapsed="2.134868"/>
+</kw>
+<arg>${TC04.item}</arg>
+<status status="PASS" start="2026-03-05T17:27:00.527858" elapsed="3.513548"/>
+</kw>
+<kw name="Click product" owner="Prod_main_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:04.050173" level="INFO">Clicks the element 'css=[data-ref-id="10430368"]'.</msg>
+<arg>${Prod_main_locator_Product}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:04.046433" elapsed="3.143014"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:04.043532" elapsed="3.146402"/>
+</kw>
+<kw name="Get Product Detail" owner="Prod_main_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:08.927909" level="INFO">Text: 'BARLAST\nFloor lamp, black/white, 150 cm'</msg>
+<arg>${Prod_main_locator_Product_Detail}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:07.193319" elapsed="1.734749"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:07.191886" elapsed="1.736408"/>
+</kw>
+<kw name="Add quantity" owner="product_detail_feature">
+<for flavor="IN RANGE">
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:08.937204" level="INFO">Clicks the element 'css=button[aria-label="Increase quantity button"]'.</msg>
+<arg>css=button[aria-label="Increase quantity button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:08.936198" elapsed="0.226847"/>
+</kw>
+<var name="${i}">0</var>
+<status status="PASS" start="2026-03-05T17:27:08.933030" elapsed="0.230227"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:09.268154" level="INFO">Clicks the element 'css=button[aria-label="Increase quantity button"]'.</msg>
+<arg>css=button[aria-label="Increase quantity button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:09.170799" elapsed="0.519504"/>
+</kw>
+<var name="${i}">1</var>
+<status status="PASS" start="2026-03-05T17:27:09.170005" elapsed="0.520589"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:09.693272" level="INFO">Clicks the element 'css=button[aria-label="Increase quantity button"]'.</msg>
+<arg>css=button[aria-label="Increase quantity button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:09.692048" elapsed="0.282809"/>
+</kw>
+<var name="${i}">2</var>
+<status status="PASS" start="2026-03-05T17:27:09.691130" elapsed="0.284260"/>
+</iter>
+<iter>
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:09.978322" level="INFO">Clicks the element 'css=button[aria-label="Increase quantity button"]'.</msg>
+<arg>css=button[aria-label="Increase quantity button"]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:09.977214" elapsed="0.091340"/>
+</kw>
+<var name="${i}">3</var>
+<status status="PASS" start="2026-03-05T17:27:09.976133" elapsed="0.092675"/>
+</iter>
+<var>${i}</var>
+<value>4</value>
+<status status="PASS" start="2026-03-05T17:27:08.931547" elapsed="1.137377"/>
+</for>
+<status status="PASS" start="2026-03-05T17:27:08.930401" elapsed="1.138710"/>
+</kw>
+<kw name="Add to cart button" owner="product_detail_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:10.071283" level="INFO">Clicks the element 'css=button[class="pipf-btn pipf-btn--emphasised pipf-btn--fluid"]'.</msg>
+<arg>${ADD_TO_CART_BUTTON}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:10.070319" elapsed="0.093005"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:10.069579" elapsed="0.094411"/>
+</kw>
+<kw name="Verify add to cart successfully" owner="product_detail_feature">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:12.103978" level="INFO">Text: 'Added to cart'</msg>
+<msg time="2026-03-05T17:27:12.104340" level="INFO">${text} = Added to cart</msg>
+<var>${text}</var>
+<arg>css=p[class="rec-inline-message__body"]</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:10.167402" elapsed="1.937025"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${text}</arg>
+<arg>Added to cart</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-03-05T17:27:12.105023" elapsed="0.000848"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:10.165489" elapsed="1.940903"/>
+</kw>
+<kw name="Click go back to shopping" owner="product_detail_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:12.110475" level="INFO">Clicks the element 'css=a[aria-label="Go to shopping bag"]'.</msg>
+<arg>${GO_TO_SHOPPING_BAG_LINK}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:12.109139" elapsed="0.648224"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:12.107744" elapsed="0.649937"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2026-03-05T17:27:13.442551" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-05T17:27:12.758993" elapsed="0.683946"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:26:52.866063" elapsed="20.577823"/>
+</test>
+<test id="s1-t2" name="IKEA_002" line="26">
+<kw name="Open Prod main page" owner="common">
+<kw name="New Browser" owner="Browser">
+<msg time="2026-03-05T17:27:13.494453" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/pornrat/Documents/GitHub/Open_Camp_Doppio_Group_2/testcases/browser/traces/temp/9425b778-075c-4d5d-9d87-8b3dce046597"}</msg>
+<msg time="2026-03-05T17:27:14.178806" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/pornrat/Documents/GitHub/Open_Camp_Doppio_Group_2/testcases/browser/traces/temp/9425b778-075c-4d5d-9d87-8b3dce046597"}</msg>
+<arg>chromium</arg>
+<arg>${FALSE}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-03-05T17:27:13.491416" elapsed="0.687754"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2026-03-05T17:27:14.187864" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  }
+}</msg>
+<msg time="2026-03-05T17:27:14.222360" level="INFO">Successfully created context. </msg>
+<msg time="2026-03-05T17:27:14.222656" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2026-03-05T17:27:14.179752" elapsed="0.043308"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2026-03-05T17:27:17.808238" level="INFO">Successfully initialized new page object and opened url: https://www.ikea.com/th</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-03-05T17:27:14.223916" elapsed="3.584594"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:13.490231" elapsed="4.318492"/>
+</kw>
+<kw name="Click cookie_policy button" owner="cookie_policy_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:17.812808" level="INFO">Clicks the element 'id=onetrust-accept-btn-handler'.</msg>
+<arg>selector=${btn_cookie_policy}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:17.810830" elapsed="0.713655"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:17.809683" elapsed="0.715143"/>
+</kw>
+<kw name="Click account button" owner="top_bar_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:18.530300" level="INFO">Clicks the element 'id=hnf-header-profile'.</msg>
+<arg>selector=${btn_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:18.529087" elapsed="1.503740"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:18.528276" elapsed="1.505008"/>
+</kw>
+<kw name="Click create account button" owner="register_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:20.037120" level="INFO">Clicks the element 'data-testid=create-account'.</msg>
+<arg>selector=${btn_create_account}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:20.035498" elapsed="2.096712"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:20.034235" elapsed="2.098199"/>
+</kw>
+<kw name="Check checkbox" owner="register_page">
+<kw name="Check Checkbox" owner="Browser">
+<arg>selector=${chk_policy}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:22.134202" elapsed="3.265713"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:22.133258" elapsed="3.267167"/>
+</kw>
+<kw name="Check uncheckbox" owner="register_page">
+<kw name="Uncheck Checkbox" owner="Browser">
+<arg>selector=${chk_policy}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Unchecks the checkbox found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.402260" elapsed="0.102980"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.401141" elapsed="0.104368"/>
+</kw>
+<kw name="Click signup button" owner="register_page">
+<kw name="Click" owner="Browser">
+<msg time="2026-03-05T17:27:25.509053" level="INFO">Clicks the element 'data-testid=sign-up-create-account'.</msg>
+<arg>selector=${btn_signup}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.506755" elapsed="0.126021"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.506007" elapsed="0.127198"/>
+</kw>
+<kw name="Verify msg firstname" owner="register_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:25.727717" level="INFO">Text: 'The first name field cannot be left empty'</msg>
+<arg>${lbl_alert_firstname}</arg>
+<arg>==</arg>
+<arg>${alert.firstname}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.637284" elapsed="0.090722"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.634903" elapsed="0.093585"/>
+</kw>
+<kw name="Verify msg lastname" owner="register_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:25.760961" level="INFO">Text: 'The last name field cannot be left empty'</msg>
+<arg>${lbl_alert_lastname}</arg>
+<arg>==</arg>
+<arg>${alert.lastname}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.729679" elapsed="0.031456"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.729056" elapsed="0.032307"/>
+</kw>
+<kw name="Verify msg email" owner="register_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:25.793167" level="INFO">Text: 'The email address field cannot be left empty'</msg>
+<arg>${lbl_alert_email}</arg>
+<arg>==</arg>
+<arg>${alert.email}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.762747" elapsed="0.030598"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.762132" elapsed="0.031440"/>
+</kw>
+<kw name="Verify msg password" owner="register_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:25.826771" level="INFO">Text: 'The password field cannot be left empty'</msg>
+<arg>${lbl_alert_password}</arg>
+<arg>==</arg>
+<arg>${alert.password}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.794746" elapsed="0.032204"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.794137" elapsed="0.033267"/>
+</kw>
+<kw name="Verify msg policy" owner="register_page">
+<kw name="Get Text" owner="Browser">
+<msg time="2026-03-05T17:27:25.858151" level="INFO">Text: 'Please confirm that you agree to the Privacy Policy to proceed'</msg>
+<arg>${lbl_alert_policy}</arg>
+<arg>==</arg>
+<arg>${alert.policy}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-03-05T17:27:25.828789" elapsed="0.029539"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:25.828161" elapsed="0.030400"/>
+</kw>
+<status status="PASS" start="2026-03-05T17:27:13.474464" elapsed="12.384439"/>
+</test>
+<status status="PASS" start="2026-03-05T17:26:52.270471" elapsed="33.864801"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="TC 001">TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

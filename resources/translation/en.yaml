@@ -1,4 +1,13 @@
+# Login page warning messages
 login_incorrect_email_message: "Please enter a valid email"
 login_invalid_credentials: "The email address or password you entered is incorrect or the account does not exist in IKEA Thailand"
 login_error_occured_1: "There was a problem signing in"
 login_error_occured_2: "It’s our fault, not yours. Please try again later to see if we can work it out."
+
+
+alert:
+  firstname: "The first name field cannot be left empty"
+  lastname: "The last name field cannot be left empty"
+  email: "The email address field cannot be left empty"
+  password: "The password field cannot be left empty"
+  policy: "Please confirm that you agree to the Privacy Policy to proceed"

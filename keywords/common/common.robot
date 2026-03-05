@@ -1,6 +1,10 @@
 *** Keywords ***
 
-Open ikea website
-    Browser.New Browser    chromium    headless=false
+
+Open Prod main page
+    Browser.New Browser    chromium    ${FALSE}
     Browser.New Context
-    Browser.New Page       https://www.ikea.com/th/en
+    Browser.New Page    ${URL}
+
+
+
