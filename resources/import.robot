@@ -30,10 +30,10 @@ Resource    ../keywords/pages/product_detail_page.robot
 Variables    ../resources/testdata/seacrhData/data.yaml
 
 Resource    ${CURDIR}/../keywords/features/Prod_main_feature.robot
-Resource    ${CURDIR}/../keywords/pages/filter_page.robot
-
+Resource    ${CURDIR}/../keywords/pages/fillter_page.robot
 Resource    ${CURDIR}/locators/Filter_page_locator.robot
-Resource    ${CURDIR}/../keywords/features/Filter_page_feature.robot
+#Resource    ${CURDIR}/locators/Filter_page_locator.robot
+Resource    ${CURDIR}/../keywords/features/Fillter_page_feature.robot
 Resource    ${CURDIR}/../keywords/pages/Prod_main_page.robot
 
 

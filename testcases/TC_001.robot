@@ -21,7 +21,7 @@ IKEA_003
     common.Open Prod main page
     cookie_policy_page.Click cookie_policy button
     Prod_main_page.Test search Prod main page      ${TC03.prodname}
-    # Fillter_page_feature.Go to brown sofa and verify prod      ${TC03.prodname}     ${TC03.prodprize}   ${TC03.proddescription}
+    Fillter_page_feature.Go to brown sofa and verify prod      ${TC03.prodname}     ${TC03.prodprize}   ${TC03.proddescription}
 
 
 
@@ -56,8 +56,8 @@ TC01 cannot login with empty username
     accepted_all_cookies_page.Click accept all cookies button
         # home_page.Click Profile Button
     home_page.Click profile button
-    Input email           ${tc01_invalid_login_with_incorrect_email_format.email}
-    Input password        ${tc01_invalid_login_with_incorrect_email_format.password}
+    Input email login          ${tc01_invalid_login_with_incorrect_email_format.email}
+    Input password login        ${tc01_invalid_login_with_incorrect_email_format.password}
     Click login button
     
     get text   span[class*="helper-text--error"]   ==   ${login_incorrect_email_message}
@@ -73,8 +73,8 @@ TC02 invalid_login:
     END
         # home_page.Click Profile Button
     home_page.Click profile button
-    Input email           ${tc02_invalid_login.email}
-    Input password        ${tc02_invalid_login.password}
+    Input email login          ${tc02_invalid_login.email}
+    Input password login        ${tc02_invalid_login.password}
     Click login button
 
     get text   p[class*="prefix-inline-message__body"]  ==   ${login_invalid_credentials}
@@ -87,8 +87,8 @@ TC03 There was a problem signing in:
     accepted_all_cookies_page.Click accept all cookies button
         # home_page.Click Profile Button
     home_page.Click profile button
-    Input email           ${tc03_login_error_occured.email}
-    Input password        ${tc03_login_error_occured.password}
+    Input email login          ${tc03_login_error_occured.email}
+    Input password login        ${tc03_login_error_occured.password}
     Click login button
     
     get text   h6[class*="message__title"]   ==   ${login_error_occured_1}
