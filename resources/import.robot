@@ -4,13 +4,7 @@ Library     Browser    strict=${False}
 Library     DebugLibrary
 Library     String
 
-Resource    locators/Prod_main_locator.robot
-Resource    ../keywords/features/product_detail_feature.robot
-Resource    ../keywords/pages/Prod_main_page.robot
-Resource    ../resources/config.robot
-Resource    ../resources/locators/Product_detail_locator.robot
-Resource    ../keywords/pages/product_detail_page.robot
-Variables    ../resources/testdata/seacrhData/data.yaml
+
 
 Resource   ${CURDIR}/../keywords/common/common.robot
 Resource   ${CURDIR}/../keywords/pages/top_bar_page.robot
@@ -23,3 +17,21 @@ Resource   ${CURDIR}/../keywords/features/register_feature.robot
 Variables  ${CURDIR}/testdata/testdata.yaml
 Variables  ${CURDIR}/translation/${LANG}.yaml
 
+
+Resource    locators/Prod_main_locator.robot
+Resource    ../keywords/features/product_detail_feature.robot
+Resource    ../keywords/pages/Prod_main_page.robot
+Resource    ../resources/config.robot
+Resource    ../resources/locators/Product_detail_locator.robot
+Resource    ../keywords/pages/product_detail_page.robot
+Variables    ../resources/testdata/seacrhData/data.yaml
+
+Resource    ${CURDIR}/../keywords/features/Prod_main_feature.robot
+Resource    ${CURDIR}/../keywords/pages/filter_page.robot
+
+Resource    ${CURDIR}/locators/Filter_page_locator.robot
+Resource    ${CURDIR}/../keywords/features/Filter_page_feature.robot
+Resource    ${CURDIR}/../keywords/pages/Prod_main_page.robot
+
+
+Variables   testdata/testdata.yaml

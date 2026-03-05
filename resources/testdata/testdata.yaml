@@ -4,3 +4,10 @@ IKEA_002:
   lastname : "abcd"
   email : "testdemo1.p@gmail.com"
   password : "Qwe@1234599"
+TC03 :
+  Color: "น้ำตาล"
+  prodname: "STOCKHOLM 2025"
+  Product description: "โซฟา2ที่นั่ง, อัลฮัมน์ น้ำตาลเข้ม"
+  proddescription: "Alhamn dark brown"
+  prodprize: "23790THB"
+  prodname2: "LEGITIM"
