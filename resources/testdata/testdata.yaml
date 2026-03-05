@@ -1,0 +1,6 @@
+IKEA_002:
+  # Test Data
+  firstname : "Pink"
+  lastname : "abcd"
+  email : "testdemo1.p@gmail.com"
+  password : "Qwe@1234599"
