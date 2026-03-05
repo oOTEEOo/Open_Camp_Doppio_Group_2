@@ -1,4 +1,8 @@
 *** Keywords ***
-Open training website
-    Browser.New browser     chromium      headless=${FALSE}
-    Browser.New page        https://www.ikea.com/th
+
+Open Prod main page
+    Browser.New Browser    chromium    ${FALSE}
+    Browser.New Context
+    Browser.New Page    ${URL}
+
+
