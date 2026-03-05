@@ -1,0 +1,1 @@
+# Open_Camp_Doppio_Group_2
