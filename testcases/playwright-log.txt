@@ -1,0 +1,90 @@
+{"level":30,"time":"2026-03-05T09:11:01.464Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Listening on 127.0.0.1:49705"}
+{"level":30,"time":"2026-03-05T09:11:02.595Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:11:03.376Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2026-03-05T09:11:03.376Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T09:11:03.376Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T09:11:03.380Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T09:11:03.380Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2026-03-05T09:11:03.381Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@23028fd7318a9c615bd29de10e75043a\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=f7d8e162-b6ba-4fe9-8c89-8984a44b5de8\"}"}
+{"level":30,"time":"2026-03-05T09:11:03.381Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T09:11:03.410Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Setting default timeout for context context=56d72766-bacb-46b7-a0a1-cf81b4a559a4 to 10000"}
+{"level":30,"time":"2026-03-05T09:11:03.410Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Changed active context: context=56d72766-bacb-46b7-a0a1-cf81b4a559a4"}
+{"level":30,"time":"2026-03-05T09:11:03.410Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T09:11:03.413Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T09:11:03.413Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@23028fd7318a9c615bd29de10e75043a\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=56d72766-bacb-46b7-a0a1-cf81b4a559a4\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@c0e0ec83ca503b6b41f7b4d4b4049972\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=f7d8e162-b6ba-4fe9-8c89-8984a44b5de8\"}"}
+{"level":30,"time":"2026-03-05T09:11:03.886Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T09:11:03.886Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T09:11:05.135Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T09:11:05.140Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:05.141Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:05.508Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:05.513Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T09:11:05.513Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[id=\"ikea-search-input\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:05.546Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T09:11:05.548Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:05.548Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:05.960Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:05.964Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:05.964Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[data-ref-id=\"10430368\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:07.201Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:07.207Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:07.207Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=[class=\"pipcom-price-module__information\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:07.416Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Retrieved text for element css=[class=\"pipcom-price-module__information\"] containing BARLAST\nFloor lamp, black/white, 150 cm"}
+{"level":30,"time":"2026-03-05T09:11:07.416Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:07.420Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:07.420Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:10.004Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.008Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.009Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:10.050Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.053Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.053Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:10.084Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.087Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.087Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:10.117Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.120Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.120Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[class=\"pipf-btn pipf-btn--emphasised pipf-btn--fluid\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:10.153Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:10.156Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:10.156Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=p[class=\"rec-inline-message__body\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:11.466Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Retrieved text for element css=p[class=\"rec-inline-message__body\"] containing Added to cart"}
+{"level":30,"time":"2026-03-05T09:11:11.466Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getText"}
+{"level":30,"time":"2026-03-05T09:11:11.471Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T09:11:11.471Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=a[aria-label=\"Go to shopping bag\"] in page."}
+{"level":30,"time":"2026-03-05T09:11:11.612Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T09:11:11.615Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-03-05T09:11:11.627Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Removed page=2071ea47-2c4d-4687-8812-37b6e905b7f1 from context=56d72766-bacb-46b7-a0a1-cf81b4a559a4 page stack"}
+{"level":30,"time":"2026-03-05T09:11:11.765Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12547:15)
+    at PlaywrightServer.getActiveBrowser (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13497:59)
+    at PlaywrightServer.setTimeout (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13747:57)
+    at Object.onReceiveHalfClose (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-05T09:11:11.768Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:11.768Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:12547:15)
+    at PlaywrightServer.getActiveBrowser (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13497:59)
+    at PlaywrightServer.setTimeout (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/index.js:13747:57)
+    at Object.onReceiveHalfClose (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Users/natthidak/Library/Python/3.9/lib/python/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:536:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-03-05T09:11:11.771Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:11.771Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T09:11:11.791Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T09:11:11.792Z","pid":95972,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}
