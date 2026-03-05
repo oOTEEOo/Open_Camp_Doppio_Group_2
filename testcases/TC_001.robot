@@ -10,7 +10,6 @@ TC_IKEA_004 Verify user can add product successfully
     Prod_main_page.Click product
     Prod_main_page.Get Product Detail
     product_detail_feature.Add quantity
-    
     product_detail_page.Add to cart button
     product_detail_feature.Verify add to cart successfully
     product_detail_page.Click go back to shopping

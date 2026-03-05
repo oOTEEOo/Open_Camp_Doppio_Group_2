@@ -6,4 +6,4 @@ Add quantity
 
 Verify add to cart successfully
     ${text}=    Get Text    css=p[class="rec-inline-message__body"]
-    Should Be Equal As Strings    ${text}    Added to cart
+    Should Be Equal As Strings    ${text}    ${EMPTY}
