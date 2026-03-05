@@ -1,147 +1,44 @@
-{"level":30,"time":"2026-03-05T10:26:53.945Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Listening on 127.0.0.1:54438"}
-{"level":30,"time":"2026-03-05T10:26:55.075Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-05T10:26:55.822Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
-{"level":30,"time":"2026-03-05T10:26:55.823Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-05T10:26:55.823Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-05T10:26:55.846Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-05T10:26:55.847Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-03-05T10:26:55.847Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@68a5bd2d9af96d4e089ec1047459b6e3\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=ec482a14-c68e-459c-a87a-55eac15f28e7\"}"}
-{"level":30,"time":"2026-03-05T10:26:55.847Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Trace file: "}
-{"level":30,"time":"2026-03-05T10:26:55.880Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Setting default timeout for context context=f9e71d37-235b-406c-a5d5-d9d12ce142d2 to 10000"}
-{"level":30,"time":"2026-03-05T10:26:55.880Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changed active context: context=f9e71d37-235b-406c-a5d5-d9d12ce142d2"}
-{"level":30,"time":"2026-03-05T10:26:55.881Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-05T10:26:55.893Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-05T10:26:55.893Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@68a5bd2d9af96d4e089ec1047459b6e3\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=f9e71d37-235b-406c-a5d5-d9d12ce142d2\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@997da6c11e90544c0b3776daf3e23484\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=ec482a14-c68e-459c-a87a-55eac15f28e7\"}"}
-{"level":30,"time":"2026-03-05T10:26:56.893Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-05T10:26:56.894Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T10:26:59.619Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-05T10:26:59.639Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:26:59.644Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: id=onetrust-accept-btn-handler in page."}
-{"level":30,"time":"2026-03-05T10:27:00.514Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:00.535Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2026-03-05T10:27:00.535Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=input[id=\"ikea-search-input\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:01.903Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method fillText"}
-{"level":30,"time":"2026-03-05T10:27:01.910Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:01.910Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=button[type=\"submit\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:04.038Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:04.058Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:04.058Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=[data-ref-id=\"10430368\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:07.186Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:07.202Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:07.203Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=[class=\"pipcom-price-module__information\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:08.925Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element css=[class=\"pipcom-price-module__information\"] containing BARLAST\nFloor lamp, black/white, 150 cm"}
-{"level":30,"time":"2026-03-05T10:27:08.925Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:08.944Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:08.944Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:09.144Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:09.278Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:09.278Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:09.686Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:09.697Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:09.697Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:09.967Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:09.983Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:09.983Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=button[aria-label=\"Increase quantity button\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:10.064Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:10.077Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:10.077Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=button[class=\"pipf-btn pipf-btn--emphasised pipf-btn--fluid\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:10.161Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:10.173Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:10.174Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=p[class=\"rec-inline-message__body\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:12.089Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element css=p[class=\"rec-inline-message__body\"] containing Added to cart"}
-{"level":30,"time":"2026-03-05T10:27:12.089Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:12.116Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:12.116Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: css=a[aria-label=\"Go to shopping bag\"] in page."}
-{"level":30,"time":"2026-03-05T10:27:12.756Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:12.765Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2026-03-05T10:27:12.906Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Removed page=0d93a83c-21df-480a-a50c-a4ec6c176372 from context=f9e71d37-235b-406c-a5d5-d9d12ce142d2 page stack"}
-{"level":30,"time":"2026-03-05T10:27:13.440Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method closeBrowser"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/index.js:12547:15)
-    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/index.js:13497:59)
-    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/index.js:13747:57)
-    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
-    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
-    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
-    at ServerHttp2Stream.emit (node:events:520:35)
-    at endReadableNT (node:internal/streams/readable:1729:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
-=============================================================
-{"level":30,"time":"2026-03-05T10:27:13.467Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:13.467Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:13.484Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:13.484Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:13.503Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2026-03-05T10:27:14.177Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
-{"level":30,"time":"2026-03-05T10:27:14.177Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2026-03-05T10:27:14.177Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2026-03-05T10:27:14.192Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method newContext"}
-{"level":30,"time":"2026-03-05T10:27:14.192Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
-{"level":30,"time":"2026-03-05T10:27:14.192Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b61e59b7f1b9882c94ae479d57e91bf4\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=dc8e1fe1-3394-42b3-aa9a-d6d709e1009b\"}"}
-{"level":30,"time":"2026-03-05T10:27:14.192Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Trace file: "}
-{"level":30,"time":"2026-03-05T10:27:14.203Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Setting default timeout for context context=d36255b3-dc31-4da1-93da-42b4528de4a3 to 10000"}
-{"level":30,"time":"2026-03-05T10:27:14.203Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changed active context: context=d36255b3-dc31-4da1-93da-42b4528de4a3"}
-{"level":30,"time":"2026-03-05T10:27:14.203Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method newContext"}
-{"level":30,"time":"2026-03-05T10:27:14.234Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2026-03-05T10:27:14.234Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b61e59b7f1b9882c94ae479d57e91bf4\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=d36255b3-dc31-4da1-93da-42b4528de4a3\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@8e27d05db2a4298f1de2f17597873e02\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=dc8e1fe1-3394-42b3-aa9a-d6d709e1009b\"}"}
-{"level":30,"time":"2026-03-05T10:27:14.963Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Video path: undefined"}
-{"level":30,"time":"2026-03-05T10:27:14.963Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T10:27:17.806Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method newPage"}
-{"level":30,"time":"2026-03-05T10:27:17.820Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:17.820Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: id=onetrust-accept-btn-handler in page."}
-{"level":30,"time":"2026-03-05T10:27:18.517Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:18.566Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: id=hnf-header-profile in page."}
-{"level":30,"time":"2026-03-05T10:27:18.565Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:20.031Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:20.042Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:20.042Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: data-testid=create-account in page."}
-{"level":30,"time":"2026-03-05T10:27:22.130Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:22.143Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method checkCheckbox"}
-{"level":30,"time":"2026-03-05T10:27:22.143Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: id=_r_0_ in page."}
-{"level":30,"time":"2026-03-05T10:27:25.398Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method checkCheckbox"}
-{"level":30,"time":"2026-03-05T10:27:25.408Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method uncheckCheckbox"}
-{"level":30,"time":"2026-03-05T10:27:25.408Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: id=_r_0_ in page."}
-{"level":30,"time":"2026-03-05T10:27:25.504Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method uncheckCheckbox"}
-{"level":30,"time":"2026-03-05T10:27:25.511Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method click"}
-{"level":30,"time":"2026-03-05T10:27:25.511Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: data-testid=sign-up-create-account in page."}
-{"level":30,"time":"2026-03-05T10:27:25.630Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method click"}
-{"level":30,"time":"2026-03-05T10:27:25.652Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.652Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: span[data-skapa^=helper-text] >> nth=0 in page."}
-{"level":30,"time":"2026-03-05T10:27:25.726Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element span[data-skapa^=helper-text] >> nth=0 containing The first name field cannot be left empty"}
-{"level":30,"time":"2026-03-05T10:27:25.726Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.733Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.733Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: span[data-skapa^=helper-text] >> nth=1 in page."}
-{"level":30,"time":"2026-03-05T10:27:25.759Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element span[data-skapa^=helper-text] >> nth=1 containing The last name field cannot be left empty"}
-{"level":30,"time":"2026-03-05T10:27:25.759Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.769Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.769Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: span[data-skapa^=helper-text] >> nth=2 in page."}
-{"level":30,"time":"2026-03-05T10:27:25.790Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element span[data-skapa^=helper-text] >> nth=2 containing The email address field cannot be left empty"}
-{"level":30,"time":"2026-03-05T10:27:25.791Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.798Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.798Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: span[data-skapa^=helper-text] >> nth=3 in page."}
-{"level":30,"time":"2026-03-05T10:27:25.825Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element span[data-skapa^=helper-text] >> nth=3 containing The password field cannot be left empty"}
-{"level":30,"time":"2026-03-05T10:27:25.825Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.832Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.832Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Strict mode is disabled, return first Locator: span[data-skapa^=helper-text] >> nth=4 in page."}
-{"level":30,"time":"2026-03-05T10:27:25.857Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Retrieved text for element span[data-skapa^=helper-text] >> nth=4 containing Please confirm that you agree to the Privacy Policy to proceed"}
-{"level":30,"time":"2026-03-05T10:27:25.857Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getText"}
-{"level":30,"time":"2026-03-05T10:27:25.863Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.868Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.871Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.874Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.876Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.878Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.883Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.885Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:25.892Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changed active context: context=d36255b3-dc31-4da1-93da-42b4528de4a3"}
-{"level":30,"time":"2026-03-05T10:27:25.892Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changing current active page: page=de9db441-f3ff-4d81-af15-89f607d7daaa"}
-{"level":30,"time":"2026-03-05T10:27:25.892Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Changed active page"}
-{"level":30,"time":"2026-03-05T10:27:25.898Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method closeContext"}
-{"level":30,"time":"2026-03-05T10:27:26.130Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Removed page=b9f7062f-b328-4577-967b-506faf658e3f from context=d36255b3-dc31-4da1-93da-42b4528de4a3 page stack"}
-{"level":30,"time":"2026-03-05T10:27:26.131Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method closeContext"}
-{"level":30,"time":"2026-03-05T10:27:26.159Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:26.160Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2026-03-05T10:27:26.291Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2026-03-05T10:27:26.921Z","pid":40659,"hostname":"pornrats-MacBook-Pro.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T11:29:29.788Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Listening on 127.0.0.1:53641"}
+{"level":30,"time":"2026-03-05T11:29:30.901Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-03-05T11:29:31.701Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2026-03-05T11:29:31.701Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-03-05T11:29:31.701Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-03-05T11:29:31.705Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-03-05T11:29:31.705Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2026-03-05T11:29:31.705Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@15c966bad3065f71d41a82b6c658ebe2\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=e2d5adb7-92ad-4a4e-adbc-00b4d2a7de6c\"}"}
+{"level":30,"time":"2026-03-05T11:29:31.705Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Trace file: "}
+{"level":30,"time":"2026-03-05T11:29:31.739Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Setting default timeout for context context=fd12fb77-ed5d-4bcf-87ee-1dbb2d520a8a to 10000"}
+{"level":30,"time":"2026-03-05T11:29:31.739Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Changed active context: context=fd12fb77-ed5d-4bcf-87ee-1dbb2d520a8a"}
+{"level":30,"time":"2026-03-05T11:29:31.740Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method newContext"}
+{"level":30,"time":"2026-03-05T11:29:31.742Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-03-05T11:29:31.742Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@15c966bad3065f71d41a82b6c658ebe2\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=fd12fb77-ed5d-4bcf-87ee-1dbb2d520a8a\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@f50b6ee6b46f67276d1660eb63173d34\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}},\"traceFile\":\"\"}],\"id\":\"browser=e2d5adb7-92ad-4a4e-adbc-00b4d2a7de6c\"}"}
+{"level":30,"time":"2026-03-05T11:29:32.170Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Video path: undefined"}
+{"level":30,"time":"2026-03-05T11:29:32.170Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T11:29:34.307Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method newPage"}
+{"level":30,"time":"2026-03-05T11:29:34.315Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T11:29:34.315Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: id=onetrust-accept-btn-handler in page."}
+{"level":30,"time":"2026-03-05T11:29:34.397Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T11:29:34.400Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-03-05T11:29:34.400Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=input[id=\"ikea-search-input\"] in page."}
+{"level":30,"time":"2026-03-05T11:29:34.452Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method fillText"}
+{"level":30,"time":"2026-03-05T11:29:34.455Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method click"}
+{"level":30,"time":"2026-03-05T11:29:34.455Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Strict mode is disabled, return first Locator: css=button[type=\"submit\"] in page."}
+{"level":30,"time":"2026-03-05T11:29:34.865Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method click"}
+{"level":30,"time":"2026-03-05T11:29:34.869Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.870Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.872Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.873Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.875Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.875Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.877Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.878Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.879Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Changed active context: context=fd12fb77-ed5d-4bcf-87ee-1dbb2d520a8a"}
+{"level":30,"time":"2026-03-05T11:29:34.879Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Changing current active page: page=66c1fdd0-e315-44f0-b95f-c55365d3fc7f"}
+{"level":30,"time":"2026-03-05T11:29:34.879Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Changed active page"}
+{"level":30,"time":"2026-03-05T11:29:34.886Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-03-05T11:29:34.893Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Removed page=a402c7f9-2f01-4902-a1b7-82d18f4a0b84 from context=fd12fb77-ed5d-4bcf-87ee-1dbb2d520a8a page stack"}
+{"level":30,"time":"2026-03-05T11:29:34.902Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-03-05T11:29:34.905Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.905Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-03-05T11:29:34.923Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-03-05T11:29:35.009Z","pid":13056,"hostname":"Natthidas-MacBook-Air.local","msg":"End of node method closeAllBrowsers"}

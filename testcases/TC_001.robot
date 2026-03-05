@@ -18,6 +18,12 @@ TC_IKEA_004 Verify user can add product successfully
 
     Close Browser
 
+IKEA_003
+    common.Open Prod main page
+    cookie_policy_page.Click cookie_policy button
+    Prod_main_page.Test search Prod main page      ${TC03.prodname}
+    # Fillter_page_feature.Go to brown sofa and verify prod      ${TC03.prodname}     ${TC03.prodprize}   ${TC03.proddescription}
+
 
 
 # IKEA_001
