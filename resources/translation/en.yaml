@@ -1,0 +1,6 @@
+alert:
+  firstname: "The first name field cannot be left empty"
+  lastname: "The last name field cannot be left empty"
+  email: "The email address field cannot be left empty"
+  password: "The password field cannot be left empty"
+  policy: "Please confirm that you agree to the Privacy Policy to proceed"
