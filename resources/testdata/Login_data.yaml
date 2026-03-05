@@ -1,0 +1,21 @@
+tc01_invalid_login_with_incorrect_email_format:
+     email: "incorrectmail@mail.c"
+     password: "Wrong_pass001"
+
+tc02_invalid_login:
+    email:   "camp_26@doppiotech.com"
+    password:   "Camp123"
+
+
+tc03_login_error_occured:
+     email: "mail@mail.com"
+     password: ""
+
+
+
+#tc04_login_with_error_occured:
+
+
+
+
+
